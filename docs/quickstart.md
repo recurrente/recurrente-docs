@@ -99,7 +99,7 @@ curl -X POST "https://app.recurrente.com/api/checkouts" \
   -d '{ "items": [{ "price_id": "<priceId>", "user_id": "<userId>" }] }'
 ```
 
-:::tip
+:::info
 Para obtener un `userId` debes crear un usuario con el endpoint [CREATE user](#)
 
 ```shell
