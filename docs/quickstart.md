@@ -114,6 +114,10 @@ curl -X POST "https://app.recurrente.com/api/users" \
 ```
 :::
 
+:::tip
+El `priceId` de un producto ya creado lo puedes encontrar en la página de configurar producto dentro de [tu cuenta de Recurrente](https://app.recurrente.com).
+:::
+
 Otro ejemplo, creando el producto en una misma llamada API:
 
 ```shell
