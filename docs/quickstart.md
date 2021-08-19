@@ -96,7 +96,7 @@ curl -X POST "https://app.recurrente.com/api/checkouts" \
   -H 'X-PUBLIC-KEY: pk_live_XXXX' \
   -H 'X-SECRET-KEY: sk_live_XXXX' \
   -H 'Content-type: application/json' \
-  -d '{ "items": [{ "price_id": "<priceId>", "user_id": "<userId>" }] }'
+  -d '{ "items": [{ "price_id": "<priceId>" }], "user_id": "<userId>" }'
 ```
 
 :::info
