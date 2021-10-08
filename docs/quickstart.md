@@ -104,8 +104,8 @@ Para obtener un `userId` debes crear un usuario con el endpoint [CREATE user](#)
 
 ```shell
 curl -X POST "https://app.recurrente.com/api/users" \
-  -H 'X-PUBLIC-KEY: pk_live_FXnlKW4kTW853tIkvapsIegIPLNMd5zhtiQzq7Kjy3z4x0qnOOQzHDLM1' \
-  -H 'X-SECRET-KEY: sk_live_3kLfQRJVsAPzsigh2gKTkj8CNIfHRDHm9yCRJtNwZ1uR63mYuuEmdgWtD' \
+  -H 'X-PUBLIC-KEY: pk_live_XXXX' \
+  -H 'X-SECRET-KEY: sk_live_XXXX' \
   -H 'Content-Type: application/json' \
   -d '{ "email": "test@ejemplo.com", "full_name": "Usuario Ejemplo" }'
 
