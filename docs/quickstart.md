@@ -55,6 +55,7 @@ curl -X POST "https://app.recurrente.com/api/products" \
       "amount_in_cents": 599,
       "currency": "GTQ",
       "charge_type": "one_time",
+      "success_url": "https://www.tu-website.com/pago-exitoso"
       ...
     }
   ],
