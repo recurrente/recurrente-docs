@@ -16,8 +16,8 @@ module.exports = {
     navbar: {
       title: 'Recurrente',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'Recurrente Logo',
+        src: 'img/logo.png',
       },
       items: [
         {
