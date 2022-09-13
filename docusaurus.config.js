@@ -12,6 +12,7 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'recurrente', // Usually your GitHub org/user name.
   projectName: 'recurrente-docs', // Usually your repo name.
+  trailingSlash: true,
   themeConfig: {
     navbar: {
       title: 'Recurrente',
